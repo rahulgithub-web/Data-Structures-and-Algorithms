@@ -3,9 +3,9 @@
 function isPalindrome(x) {
   let y = "" + x;
   let start = 0;
-  let end = y.length - 1;
+  let end=y.length-1;
   while (start < end) {
-    if (y[start] !== y[end]) return false;
+    if(y[start]!==y[end]) return false;
     start++;
     end--;
   }
