@@ -5,7 +5,7 @@ function colors(nums){
         else if(nums[i]===2) swap(nums,i,left--)
         else i++ 
     }
-    return nums[i]
+    return nums
 }
 
 var swap = function(nums,start,end){
